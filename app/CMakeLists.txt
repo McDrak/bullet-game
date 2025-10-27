@@ -1,0 +1,3 @@
+add_executable(BulletGameExe main.cpp)
+
+target_link_libraries(BulletGameExe PRIVATE BulletGameEngine)
