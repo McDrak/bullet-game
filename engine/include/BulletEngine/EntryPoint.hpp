@@ -6,8 +6,8 @@ extern std::unique_ptr<BulletEngine::CApplication> BulletEngine::CreateApplicati
 
 int main(int argc, char** argv)
 {
-    std::unique_ptr<BulletEngine::CApplication> App = BulletEngine::CreateApplication();
-    App->Run();
+	std::unique_ptr<BulletEngine::CApplication> App = BulletEngine::CreateApplication();
+	App->Run();
 
-    return 0;
+	return 0;
 }
