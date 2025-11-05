@@ -4,6 +4,15 @@
 
 namespace BulletEngine
 {
+	CEngine::CEngine()
+		: m_LogManager(nullptr)
+	{
+	}
+
+	CEngine::~CEngine()
+	{
+	}
+
 	void CEngine::Init()
 	{
 		m_LogManager = std::make_unique<CLogManager>();

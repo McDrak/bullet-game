@@ -11,8 +11,8 @@ namespace BulletEngine
 	class BULLETENGINE_API CEngine
 	{
 	public:
-		CEngine() = default;
-		~CEngine() = default;
+		CEngine();
+		~CEngine();
 
 		void Init();
 		void Run();
